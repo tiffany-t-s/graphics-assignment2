@@ -41,7 +41,7 @@
     //Affects the feedback effect of background where (fb * __)
     var out = (video * 1.2) + (fb * intensity);
     out.b = out.b + (sin(time/100.) * random * .4);
-    out.r = out.r + (cos(time/100.) * random );
+    out.r = out.r + (cos(frame/100.) * random );
     let new_out = mix(out, color_grad/1.5, track);
 
     return new_out;
