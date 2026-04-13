@@ -1,0 +1,20 @@
+body { 
+    margin:0;
+} 
+canvas {
+  width:inherit;
+  height:inherit;
+  position:inherit;
+  top:inherit;
+  left:inherit;
+  z-index:inherit;
+}
+
+#sc {
+  width:100% !important;
+  height:100% !important;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+}
